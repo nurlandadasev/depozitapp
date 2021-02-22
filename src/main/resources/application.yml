@@ -1,0 +1,22 @@
+server:
+  port: 9606
+spring:
+  mvc:
+    format:
+      date: iso
+  application:
+    name: depozit-service
+
+
+  profiles:
+    include:
+      - db
+      - logger
+
+
+
+
+#
+#  jackson:
+#    serialization:
+#      fail-on-empty-beans=false:

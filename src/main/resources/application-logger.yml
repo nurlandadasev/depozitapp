@@ -1,0 +1,12 @@
+logging:
+  file:
+    path: logs/depozit-service.log
+  pattern:
+    file: "%d %-5level [%thread] %logger{0} : %msg%n"
+  level:
+    root: info
+spring:
+  jpa:
+    show-sql: true
+
+
